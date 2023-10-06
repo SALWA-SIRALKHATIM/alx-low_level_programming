@@ -1,11 +1,35 @@
 #include <stdio.h>
+
+
 /**
- * main - Entry point
- * printf: To print the exact same text that inside it
- * return: Always 0 (Success)
+
+ * main - Prints numbers from 0 to 9.
+
+ *
+
+ * Return: Always 0 (Success)
+
  */
-int main()
+
+int main(void)
+
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
-	return (0);
+
+        int i;
+
+
+        for (i = 0; i < 10; i++)
+
+        {
+
+                printf("%d", i);
+
+        }
+
+        putchar('\n');
+
+        return (0);
+
 }
+
+
