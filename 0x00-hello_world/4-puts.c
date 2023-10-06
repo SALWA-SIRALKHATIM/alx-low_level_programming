@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * Short discription:
- * main: Entry point
+ * Short discription: The function is to print the exact same text that is wanted
+ * main: Entry point (the main fuction)
  * puts function:To print the exact text inside it
- * return: The program will return 0
+ * return: Will always return 0
  */
 int main(void)
 {
