@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * The program is to Print a text using puts function
- * main: The entry point, starter of the program
- * return: The intended text, and the program ends with 0
+ * main - Entry point
+ * Return: Always 1 (success)
  */
 int main(void)
 {
