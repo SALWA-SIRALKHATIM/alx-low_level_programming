@@ -1,15 +1,45 @@
 #include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+
 /**
- * Initial short discription: To print the exact same text that is wanted,
- * Which is "Programming is like building a multilingual puzzle
- * main: Entry point (the main fuction)
- * puts function:To print the exact text inside it
- * return: Will always return 0
+
+ * main - Prints the alphabet without q and e.
+
+ *
+
+ * Return: Always 0 (Success)
+
  */
-int main(void)/*main: Entry point (the main fuction)*/
+
+int main(void)
+
 {
-	/*main: Entry point (the main fuction)*/
-	/*The function is to print the exact same text that is wanted*/
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);	/*return: Will always return 0*/
+
+        int i;
+
+
+        for (i = 97; i < 123; i++)
+
+        {
+
+                if (i != 101 && i != 113)
+
+                {
+
+                        putchar(i);
+
+                }
+
+        }
+
+        putchar('\n');
+
+        return (0);
+
 }
+
+
