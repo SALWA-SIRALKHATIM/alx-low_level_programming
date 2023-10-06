@@ -1,13 +1,7 @@
 #include <stdio.h>
 /**
- * print_art_sentence - Prints a sentences.
- * Description:
- * This function prints a sentence using the C programming language.
- * The sentence is carefully
- * crafted to have proper grammar and the outcome is intended to be a piece of art.
- * The sentence
- * is printed to the standard output, followed by a new line character.
- * Return: void
+ * main - Entry point
+ * Return: Always 1 (Success)
  */
 int main(void) /* main: entry point */
 
