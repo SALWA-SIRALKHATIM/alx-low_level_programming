@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main
+ * Short discription:
+ * main: Entry point
  * puts function:To print the exact text inside it
- * return
+ * return: The program will return 0
  */
 int main(void)
 {
