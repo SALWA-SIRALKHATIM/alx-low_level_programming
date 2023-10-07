@@ -1,46 +1,32 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return:Always 1 (Success)
+
+ * main - Prints the alphabet.
+
+ *
+
+ * Return: Always 0 (Success)
+
  */
+
 int main(void)
+
 {
-	/* Declare a variable and initialize it with the first member of 
-	 * the range [a - z]
-	*/
 
-	char alphabet = 'a';
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	/* check to see if the current value of your variable is less than 
-	or the same as the last member (z) of the given range. While 
-	the value is less, go ahead and print the value
-	*/
+	int i;
 
-	while (alphabet <= 'z')
+	for (i = 0; i < 52; i++)
+
 	{
-	/* print the value of the variable */
-	putchar(alphabet);
 
-	/* increment the variable (ie: a becomes b)*/
-	alphabet++;
-	}
-	char Calphabet = 'A';
+		putchar(alp[i]);
 
-	/* check to see if the current value of your variable is less than
-	or the same as the last member (z) of the given range. While
-	the value is less, go ahead and print the value
-	*/
-
-	while (Calphabet <= 'Z')
-	{
-	/* print the value of the variable */
-	putchar(Calphabet);
-
-	/* increment the variable (ie: a becomes b) */
-	Calphabet++;
 	}
 
 	putchar('\n');
-	return (0);
-}
 
+	return (0);
+
+}
