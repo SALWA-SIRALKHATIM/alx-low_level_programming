@@ -3,13 +3,13 @@
  * main - Entry point
  * Return:Always 1 (Success)
  */
-int main ()
+int main(void)
 {
 	int num = 0;
 
-	while (num<10)
+	while(num < 10)
 	{
-		printf("%d",num);
+		printf("%d", num);
 		num++;
 	}
 	printf("\n");
