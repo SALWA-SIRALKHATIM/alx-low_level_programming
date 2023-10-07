@@ -13,7 +13,7 @@ int main(void)
 		/* print the letters */
 		putchar(alphabet);
 	}
-	putchar(\n);
+	putchar("\n");
 	return (0);
 }
 
