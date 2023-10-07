@@ -7,13 +7,14 @@ int main(void)
 {
 /* declare a variable */
 	char alphabet;
+
 	/* using for loop */
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		/* print the letters */
 		putchar(alphabet);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
 
