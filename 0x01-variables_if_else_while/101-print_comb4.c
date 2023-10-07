@@ -19,10 +19,10 @@ int main(void)
 				putchar((digit3 % 10) + '0');
 					if (digit1 == 8 && digit2 == 8)
 						continue;
-				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
-				{
+					if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					{
 						break;
-				}
+					}
 				putchar(',');
 				putchar(' ');
 
