@@ -19,7 +19,10 @@ int main(void)
 
 			if (digit1 == 8 && digit2 == 8)
 				continue;
-
+			if (digit1 == 8 && digit2 == 9)
+			{
+				break;
+			}
 			putchar(',');
 			putchar(' ');
 		}
