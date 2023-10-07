@@ -14,23 +14,22 @@ int main(void)
 		{
 			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-			putchar((digit3 % 10) + '0');
-			if (digit1 == 8 && digit2 == 8)
-					continue;
-			if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
+					if (digit1 == 8 && digit2 == 8)
+						continue;
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 				{
-					break;
+						break;
 				}
-			putchar(',');
-			putchar(' ');
-		
+				putchar(',');
+				putchar(' ');
+
 			}
 		}		
 	}
 
-			putchar('\n');
-		
-        		return (0);
+		putchar('\n');
+       		return (0);
 }
