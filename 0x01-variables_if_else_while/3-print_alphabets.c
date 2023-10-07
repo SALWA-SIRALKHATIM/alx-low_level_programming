@@ -24,20 +24,20 @@ int main(void)
 	/* increment the variable (ie: a becomes b)*/
 	alphabet++;
 	}
-	char alphabet = 'A';
+	char Calphabet = 'A';
 
 	/* check to see if the current value of your variable is less than
 	or the same as the last member (z) of the given range. While
 	the value is less, go ahead and print the value
 	*/
 
-	while (alphabet <= 'Z')
+	while (Calphabet <= 'Z')
 	{
 	/* print the value of the variable */
-	putchar(alphabet);
+	putchar(Calphabet);
 
 	/* increment the variable (ie: a becomes b) */
-	alphabet++;
+	Calphabet++;
 	}
 
 	putchar('\n');
