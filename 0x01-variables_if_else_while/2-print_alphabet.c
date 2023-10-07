@@ -6,7 +6,7 @@
 int main(void)
 {
 /* declare a variable */
-	int alphabet;
+	char alphabet;
 	/* using for loop */
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
