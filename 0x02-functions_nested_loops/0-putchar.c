@@ -1,11 +1,17 @@
-#include "main.h"
-/**
- * main _ print _putchar
- * followd by new line
- * Author: Salwa SirAlkhatim
+/*
+ * File: 0-putchar.c
+ * Auth: Salwa
+ *
  */
 
-int main()
+#include "main.h"
+
+/**
+ * main - Prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,5 +22,6 @@ int main()
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
