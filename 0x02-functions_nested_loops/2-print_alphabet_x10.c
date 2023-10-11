@@ -1,20 +1,19 @@
-#include "main.h"
-/**
- * alphabet_x10 function
- * Author: Salwa SirAlkhatim
+/*
+ * File: 1-alphabet.c
+ * Auth: Salwa
  */
-void print_alphabet_x10(void);
-{
-	/**
-	 * prints 10 times the alphabet, in lowercase, followed by new line.
-	 */
-	int counter = 1;
-	char ch;
-	while (counter <+ 10)
-	{
-		for (ch = 'a'; ch <= 'z'; ch++)
-			_putchar(ch);
 
-		_putchar('\n');
-	}
+#include "main.h"
+
+/**
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ */
+void print_alphabet(void)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
