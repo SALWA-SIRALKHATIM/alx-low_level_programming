@@ -3,7 +3,6 @@
 
 /**
  * File: main.h
- * Auth: Salwa
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x05-pointers_arrays_strings directory.
  */
@@ -23,4 +22,3 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
 
 #endif
-~     
