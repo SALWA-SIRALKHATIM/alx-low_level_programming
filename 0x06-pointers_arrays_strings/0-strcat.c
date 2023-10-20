@@ -1,6 +1,6 @@
 /*
  * File: 0-strcat.c
- * Auth: Geeon Obae Gekonge
+ * Auth: Salwa
  */
 
 #include <stdio.h>
