@@ -4,7 +4,6 @@
  */
 
 #include "main.h"
-#define NULL 0
 
 /**
  * _strchr - finds the first occurrence of the character c in the string s,
