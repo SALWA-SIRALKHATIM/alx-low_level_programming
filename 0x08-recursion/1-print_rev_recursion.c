@@ -1,4 +1,4 @@
-/**
+/*
  * File: 1-print_rev_recursion.c
  * Auth: Salwa
  */
@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Prints a string, followed by a new line.
+ * _puts_recursion - Prints a string in reverse.
  * @s: The string to be printed.
  */
 void _print_rev_recursion(char *s)
