@@ -22,7 +22,7 @@ int find_sqrt(int num, int root)
 		return (root);
 	else if (root * root < num)
 		return (find_sqrt(num, root + 1));
-	else 
+	else
 		return (-1);
 }
 
