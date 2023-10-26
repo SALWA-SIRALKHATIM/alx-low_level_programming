@@ -5,8 +5,8 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Write function to print a string, followed by a new line.
- * @s: the string to be printed.
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: The string to be printed.
  * Reaturn: nothing.
  */
 
