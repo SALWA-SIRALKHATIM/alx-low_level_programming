@@ -4,8 +4,12 @@
  */
 
 #include "main.h"
+
+int str_checker(char *s1, char *s2, int i, int j);
+int wildcmp(char *s1, char *s2);
+
  /**
- * str_checker - check if two strings are identical.
+ * str_checker - Check if two strings are identical.
  * @s1: string_1 base address.
  * @s2: string_2 base address.
  * @i: left index.
@@ -24,8 +28,9 @@ int str_checker(char *s1, char *s2, int i, int j)
 		return (str_checker(s1, s2, i + 1, j) || str_checker(s1, s2, i, j + 1));
 	return (0);
 }
+
 /**
- * wildcmp - check if strings could be considered identical
+ * wildcmp - Check if strings could be considered identical
  * @s1: base address for string.
  * @s2: base address for string.
  *
