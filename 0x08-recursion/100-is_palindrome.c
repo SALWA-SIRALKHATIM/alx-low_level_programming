@@ -34,8 +34,8 @@ int check_palindrome(char *s, int r_index, int l_index)
 {
 	if (s[r_index] == s[l_index])
 		if (r_index > l_index / 2)
-			return(1);
-		else 
+			return (1);
+		else
 			return (check_palindrome(s, r_index + 1, l_index - 1));
 	else
 		return (0);
@@ -50,5 +50,5 @@ int check_palindrome(char *s, int r_index, int l_index)
  */
 int is_palindrome(char *s)
 {
-	return(check_palindrome(s,0,find_strlen(s) - 1));
+	return(check_palindrome(s, 0, find_strlen(s) - 1));
 }
