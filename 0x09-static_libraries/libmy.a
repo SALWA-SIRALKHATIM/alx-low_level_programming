@@ -1,2 +1,3 @@
 #!/bin/bash
-ar rc libmy.a
+gcc -c main.h
+ar -cvq libmy.a main.h
