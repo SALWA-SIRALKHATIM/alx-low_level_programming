@@ -1,4 +1,4 @@
-/**
+/*
  * File: 0-whatsmyname.c
  * Auth: Salwa.
  */
