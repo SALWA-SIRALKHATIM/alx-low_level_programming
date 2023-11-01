@@ -1,8 +1,3 @@
-/**
- * File: 1-strdup.c
- * Auth: Salwa
- */
-
 #include "main.h"
 #include <stdlib.h>
 
